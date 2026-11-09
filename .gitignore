@@ -1,0 +1,31 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Runtime logs & generated exports
+logs/
+*.log
+outputs/
+
+# Local PDFs & temporary scratch files
+*.pdf
+tempCodeRunnerFile.*
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
